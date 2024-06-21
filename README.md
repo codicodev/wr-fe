@@ -2,12 +2,12 @@
 
 ## Architectural approach
 
-The main idea was to separate the business logic from the framework to create a more easily scalable application and to test the business requirements more intuitively and maintainably.
-To do this, I made a BlackBox decoupled from the Vue components that contain the business logic.
-The BlackBox works from the gateway to the presenters inside the features folder.
-The role of the presenters is to prepare a precise model to pass to the UI components and make the actions connected to the Store that the Components will then emit.
-This makes it easier to create reusable components and modify them if they change in subsequent versions of Vue.
-The Store manages the application state, and it's based on Pinia.
+The main idea was to separate the business logic from the framework to create a more easily scalable application and to test the business requirements more intuitively and maintainably.  
+To do this, I made a BlackBox decoupled from the Vue components that contain the business logic.  
+The BlackBox works from the gateway to the presenters inside the features folder.  
+The role of the presenters is to prepare a precise model to pass to the UI components and make the actions connected to the Store that the Components will then emit.  
+This makes it easier to create reusable components and modify them if they change in subsequent versions of Vue.  
+The Store manages the application state, and it's based on Pinia.  
 The tests are meticulously organized within the features folder, with a dedicated file for each feature. This structured approach enhances the clarity of the testing process and improves its efficiency, making it easier to identify and address any potential issues.
 
 To manage Travel and Booking data, I have used "JSON server".
