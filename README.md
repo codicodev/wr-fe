@@ -22,7 +22,7 @@ Possible improvements:
 
 ## Requirements
 
-You need npm version 10.7.0 or higher
+You need npm version 10.7.0 or higher  
 This application runs on 3000 and 8000 ports by default
 
 ## Get started
