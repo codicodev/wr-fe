@@ -1,0 +1,95 @@
+{
+  "travels": [
+    {
+      "id": "1",
+      "name": "Go to Milan",
+      "description": "Milano is a beautiful city in Italy",
+      "image": "https://placehold.co/400x400/orange/white?text=Milan",
+      "price": "200.00",
+      "average_user_rating": 1,
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-31"
+    },
+    {
+      "id": "2",
+      "name": "Go to Berlin",
+      "description": "Berlin is a beautiful city",
+      "image": "https://placehold.co/400x400/green/white?text=Berlin",
+      "price": "120.00",
+      "average_user_rating": 5,
+      "start_date": "2024-09-12",
+      "end_date": "2024-09-15"
+    },
+    {
+      "id": "3",
+      "name": "Go to Paris",
+      "description": "Paris is the capital and largest city of France.",
+      "image": "https://placehold.co/400x400/purple/white?text=Paris",
+      "price": "150.00",
+      "average_user_rating": 5,
+      "start_date": "2024-07-12",
+      "end_date": "2024-07-15"
+    },
+    {
+      "id": "4",
+      "name": "Go to Madrid",
+      "description": "Madrid lies on the River Manzanares in the central part of the Iberian Peninsula at about 650 meters above mean sea level.",
+      "image": "https://placehold.co/400x400/blue/white?text=Madrid",
+      "price": "110.00",
+      "average_user_rating": 4,
+      "start_date": "2024-10-12",
+      "end_date": "2024-10-15"
+    },
+    {
+      "id": "105f020f-675f-454f-ad13-9d93de15ffc4",
+      "name": "Go to Amsterdam",
+      "description": "Amsterdam is a cool city",
+      "image": "https://placehold.co/400x400/",
+      "price": "125.00",
+      "average_user_rating": 1,
+      "start_date": "2024-06-06",
+      "end_date": "2024-06-11"
+    },
+    {
+      "id": "952c5a9a-e0d4-4d50-9b9f-e6091240526e",
+      "name": "Go to Pechino",
+      "description": "Pechino is a city in china",
+      "image": "https://placehold.co/400x400/",
+      "price": "125.00",
+      "average_user_rating": 5,
+      "start_date": "2024-06-11",
+      "end_date": "2024-06-14"
+    },
+    {
+      "id": "d18b416c-054f-4429-b3c9-7e3406ec69ae",
+      "name": "Go to Lisbon",
+      "description": "Lisbon ",
+      "image": "https://placehold.co/400x400/",
+      "price": "120.00",
+      "average_user_rating": 5,
+      "start_date": "2024-06-07",
+      "end_date": "2024-06-22"
+    },
+    {
+      "id": "25adb039-ac32-43c2-be3a-86065537e9ba",
+      "name": "Go to New York",
+      "description": "Usa city",
+      "image": "https://placehold.co/400x400/",
+      "price": "125.00",
+      "average_user_rating": 4,
+      "start_date": "2024-06-14",
+      "end_date": "2024-06-29"
+    },
+    {
+      "id": "1e93d4bf-6a90-46eb-ace1-976cbfe69bac",
+      "name": "Go to Dublin",
+      "description": "ireland",
+      "image": "https://placehold.co/400x400/",
+      "price": "100.00",
+      "average_user_rating": 1,
+      "start_date": "2024-06-07",
+      "end_date": "2024-06-09"
+    }
+  ],
+  "bookings": []
+}

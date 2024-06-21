@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "serve-json": "json-server --watch ./database/db.json --port 8000"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.17.0",
+    "json-server": "^1.0.0-beta.1",
+    "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
+    "uuid": "^10.0.0",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2",
+    "vue3-toastify": "^0.2.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@types/uuid": "^9.0.8",
+    "@vitest/coverage-v8": "^1.6.0",
+    "c8": "^9.1.0",
+    "vitest": "^1.6.0"
+  }
+}
