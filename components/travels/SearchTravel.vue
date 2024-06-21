@@ -23,7 +23,7 @@
 				<option value="5">5</option>
 			</select>
 		</div>
-		<div>
+		<div v-if="showClearFilters">
 			<UButton color="black" variant="outline" @click="clear"
 				>Clear filters</UButton
 			>
@@ -34,6 +34,7 @@
 <script setup lang="ts">
 const search = ref('');
 const selected = ref('');
+const showClearFilters = ref(false);
 
 interface Emits {
 	(e: 'search', search: string, rating: number): void;
@@ -44,10 +45,17 @@ const emit = defineEmits<Emits>();
 const clear = () => {
 	search.value = '';
 	selected.value = '';
+	showClearFilters.value = false;
 	emit('search', '', 0);
 };
 
 const searchHandler = (search: string, selected: string) => {
+	if (search !== '' || selected !== '') {
+		showClearFilters.value = true;
+	} else {
+		showClearFilters.value = false;
+	}
+
 	emit('search', search, parseInt(selected));
 };
 </script>
