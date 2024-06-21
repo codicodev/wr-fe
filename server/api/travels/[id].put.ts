@@ -1,3 +1,5 @@
+import { TravelFromApi } from '~/types/api/travels/types';
+
 export default defineEventHandler(async event => {
 	const id = getRouterParam(event, 'id');
 
@@ -6,7 +8,7 @@ export default defineEventHandler(async event => {
 	const body = await readBody(event);
 
 	try {
-		const response = await $fetch(
+		const response: TravelFromApi = await $fetch(
 			`${runtimeConfig.public.apiTravels}/${id}`,
 			{
 				method: 'PUT',
