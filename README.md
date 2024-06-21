@@ -11,8 +11,8 @@ Improvements: Use dependency injection in the store to further separate the logi
 ## General consideration
 
 Improvements:  
-The travels filters are done on the client data but in real scenario they would be managed through backend api  
-Improve component splitting e.g. create a single form component that handles adding and editing a travel
+The travels filters are done on the client data but in real scenario they would be managed through backend api.  
+Improve component splitting e.g. create a single form component that handles adding and editing a travel.
 
 ## Setup
 
@@ -26,9 +26,9 @@ npm install
 
 ## Database
 
-I used json server to manage travels and bookings data. It run on port `http://localhost:8000`
+I used json server to manage travels and bookings data. It runs on port `http://localhost:8000`
 
-Run it with the following command:
+Runs it with the following command:
 
 ```bash
 # npm
