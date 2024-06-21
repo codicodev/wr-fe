@@ -5,7 +5,14 @@
 The main idea was to separate the business logic from the framework to create a more easily scalable application and to be able to test the business requirements in a more intuitive and maintainable way. To do this I created a black box decoupled from the vue components that contains the business logic. The black box goes from the gateway to the presenters that are inside the features folder passing through the store created with pinia. The store contains the application state. The role of the presenters is to prepare a precise model to pass to the ui components and create the actions connected to the store that will then be emitted by the components.
 In this way it is easier to create reusable components and modify them if they change in subsequent versions of vue.
 The tests are inside the features folder a file for each feature.
+
 Improvements: Use dependency injection in the store to further separate the logic.
+
+## General consideration
+
+Improvements:  
+The travels filters are done on the client data but in real scenario they would be managed through backend api  
+Improve component splitting e.g. create a single form component that handles adding and editing a travel
 
 ## Setup
 
@@ -19,7 +26,7 @@ npm install
 
 ## Database
 
-I used json server to manage travels and bookings data.
+I used json server to manage travels and bookings data. It run on port `http://localhost:8000`
 
 Run it with the following command:
 
