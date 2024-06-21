@@ -2,21 +2,32 @@
 
 ## Architectural approach
 
-The main idea was to separate the business logic from the framework to create a more easily scalable application and to be able to test the business requirements in a more intuitive and maintainable way. To do this I created a black box decoupled from the vue components that contains the business logic. The black box goes from the gateway to the presenters that are inside the features folder passing through the store created with pinia. The store contains the application state. The role of the presenters is to prepare a precise model to pass to the ui components and create the actions connected to the store that will then be emitted by the components.
-In this way it is easier to create reusable components and modify them if they change in subsequent versions of vue.
-The tests are inside the features folder a file for each feature.
+The main idea was to separate the business logic from the framework to create a more easily scalable application and to test the business requirements more intuitively and maintainably.
+To do this, I made a BlackBox decoupled from the Vue components that contain the business logic.
+The BlackBox works from the gateway to the presenters inside the features folder.
+The role of the presenters is to prepare a precise model to pass to the UI components and make the actions connected to the Store that the Components will then emit.
+This makes it easier to create reusable components and modify them if they change in subsequent versions of Vue.
+The Store manages the application state, and it's based on Pinia.
+The tests are meticulously organized within the features folder, with a dedicated file for each feature. This structured approach enhances the clarity of the testing process and improves its efficiency, making it easier to identify and address any potential issues.
 
-Improvements: Use dependency injection in the store to further separate the logic.
+To manage Travel and Booking data, I have used "JSON server".
 
-## General consideration
+Possible improvements:
 
-Improvements:  
-The travels filters are done on the client data but in real scenario they would be managed through backend api.  
-Improve component splitting e.g. create a single form component that handles adding and editing a travel.
+-   Use of dependency injection in the Store to separate the logic further.
+-   Currently, the travel filters are working on the client data, but in a real scenario, they should be managed through a server-side backend API.
+-   Add more component splitting, e.g., create a single Form Component to handle the Traved CRUD.
 
-## Setup
+-   More specif form validation
 
-Make sure to install the dependencies:
+## Requirements
+
+You need npm version 10.7.0 or higher
+This application runs on 3000 and 8000 ports by default
+
+## Get started
+
+### 1 - Install dependencies
 
 ```bash
 # npm
@@ -24,11 +35,7 @@ npm install
 
 ```
 
-## Database
-
-I used json server to manage travels and bookings data. It runs on port `http://localhost:8000`
-
-Runs it with the following command:
+### 2 - Run backend
 
 ```bash
 # npm
@@ -36,9 +43,7 @@ npm run serve-json
 
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### 3 - Run frontend
 
 ```bash
 # npm
@@ -46,7 +51,9 @@ npm run dev
 
 ```
 
-## Tests
+### 4 - Visit http://localhost:3000
+
+### Tests
 
 To run tests:
 
@@ -56,7 +63,7 @@ npm run test
 
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
