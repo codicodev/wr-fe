@@ -28,12 +28,12 @@ export const checkEndDate = (...args: (Date | string)[]) => {
 	return a > b;
 };
 
-export const checkAverageRating = (n: string) => {
-	return n.match(/([1-5])/);
+export const checkAverageRating = (n: number) => {
+	return n >= 1 && n <= 5;
 };
 
 export const validatePrice = (price: string) => {
-	return price.match(/([0-9]+)(\.|,)([0-9]{2})/);
+	return price.match(/^\d+\.\d\d$/);
 };
 
 export const validateTravelForm = (state: Travel): FormError[] => {
@@ -60,7 +60,7 @@ export const validateTravelForm = (state: Travel): FormError[] => {
 		});
 	if (
 		!state.average_user_rating ||
-		!checkAverageRating(state.average_user_rating.toString())
+		!checkAverageRating(state.average_user_rating)
 	)
 		errors.push({
 			path: 'average_user_rating',

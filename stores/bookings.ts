@@ -137,7 +137,7 @@ export const useBookingsStore = defineStore('bookingsStore', {
 			if (res.data) {
 				const mappedBooking = mapBookingDtoToPm(res.data);
 				this.bookings = this.bookings.concat(mappedBooking);
-				toast.success('Booking addedd!', {
+				toast.success('Booking added!', {
 					autoClose: 1000,
 				});
 			} else {

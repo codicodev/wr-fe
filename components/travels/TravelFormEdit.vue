@@ -35,7 +35,7 @@
 					/>
 				</UFormGroup>
 				<UFormGroup
-					label="Image url Es: https://placehold.co/400x400/"
+					label="Image url E.g.: https://placehold.co/400x400/"
 					name="image"
 					class="mb-4"
 					:required="true"

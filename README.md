@@ -18,7 +18,7 @@ Possible improvements:
 -   Currently, the travel filters are working on the client data, but in a real scenario, they should be managed through a server-side backend API.
 -   Add more component splitting, e.g., create a single Form Component to handle the Traved CRUD.
 
--   More specif form validation
+-   More strict form validation
 
 ## Requirements
 
