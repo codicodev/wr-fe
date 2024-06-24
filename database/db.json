@@ -111,19 +111,5 @@
       "end_date": "2024-06-15"
     }
   ],
-  "bookings": [
-    {
-      "id": "5e41dd42-b45c-48a5-922f-6cdd54fb93b4",
-      "travelId": "1",
-      "customer": {
-        "id": "48446da0-0b3d-47d0-a53d-2a2436cd7684",
-        "name": "Andrea Serafin",
-        "email": "test@test.com",
-        "phoneNumber": "3331234567",
-        "age": 20,
-        "gender": "male"
-      },
-      "paymentType": "paypal"
-    }
-  ]
+  "bookings": []
 }
