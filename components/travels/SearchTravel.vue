@@ -58,4 +58,6 @@ const searchHandler = (search: string, selected: string) => {
 
 	emit('search', search, parseInt(selected));
 };
+
+onUnmounted(() => clear());
 </script>

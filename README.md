@@ -1,5 +1,9 @@
 # Travels and bookings management system
 
+WeRoad Frontend technical test  
+Andrea Serafin  
+andreaserafin123@gmail.com
+
 ## Architectural approach
 
 The main idea was to separate the business logic from the framework to create a more easily scalable application and to test the business requirements more intuitively and maintainably.  

@@ -113,71 +113,17 @@
   ],
   "bookings": [
     {
-      "id": "04a0a0ca-9ee9-4295-a9d7-160bc9f2247e",
+      "id": "5e41dd42-b45c-48a5-922f-6cdd54fb93b4",
       "travelId": "1",
       "customer": {
-        "id": "fbdb13de-2fa0-4a41-a8bb-d7dd70b0f37a",
+        "id": "48446da0-0b3d-47d0-a53d-2a2436cd7684",
         "name": "Andrea Serafin",
         "email": "test@test.com",
         "phoneNumber": "3331234567",
-        "age": 90,
+        "age": 20,
         "gender": "male"
       },
       "paymentType": "paypal"
-    },
-    {
-      "id": "9a41e27e-b74f-43fa-92f5-81ece286dfbe",
-      "travelId": "105f020f-675f-454f-ad13-9d93de15ffc4",
-      "customer": {
-        "id": "dfa281db-9e7f-4b77-8de9-454e25980c60",
-        "name": "Andrea Serafin",
-        "email": "test@test.com",
-        "phoneNumber": "3331234567",
-        "age": 40,
-        "gender": "male"
-      },
-      "paymentType": "credit transfer",
-      "notes": "askdpask plasd"
-    },
-    {
-      "id": "56674fdc-dd11-4613-9824-6f7d2a8acce4",
-      "travelId": "4591bbb3-12de-4bad-97bb-40a75c27a807",
-      "customer": {
-        "id": "64b54379-9b48-43e1-bce7-dd3856b5a88d",
-        "name": "Emm Dens",
-        "email": "test@test.com",
-        "phoneNumber": "4444444444",
-        "age": 105,
-        "gender": "other"
-      },
-      "paymentType": "revolut",
-      "notes": "vvvfvvf"
-    },
-    {
-      "id": "fdd8bec0-ce70-4648-9ae9-627c23baab81",
-      "travelId": "25adb039-ac32-43c2-be3a-86065537e9ba",
-      "customer": {
-        "id": "2e30d4b3-2554-4695-81a1-e8b1eee0638d",
-        "name": "Test",
-        "email": "test@test.com",
-        "phoneNumber": "6575687483",
-        "age": 67,
-        "gender": "female"
-      },
-      "paymentType": "credit transfer"
-    },
-    {
-      "id": "3fc445e4-fcd1-425d-8fca-209e00ea6e98",
-      "travelId": "4591bbb3-12de-4bad-97bb-40a75c27a807",
-      "customer": {
-        "id": "b3de5625-061d-4038-81fd-191fd32b4ce2",
-        "name": "Mario Rossi",
-        "email": "mario@rossi.com",
-        "phoneNumber": "3339090909",
-        "age": 30,
-        "gender": "male"
-      },
-      "paymentType": "credit transfer"
     }
   ]
 }
